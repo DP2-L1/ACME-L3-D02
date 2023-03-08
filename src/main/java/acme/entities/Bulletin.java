@@ -33,4 +33,6 @@ public class Bulletin {
 	private Boolean	isCritical;
 
 	private String	link;
+
+	//faltan las relaciones
 }
