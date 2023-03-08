@@ -34,5 +34,8 @@ public class Bulletin {
 
 	private String	link;
 
-	//faltan las relaciones
+	//	@ManyToOne
+	//    @JoinColumn(name = "admin_id")
+	//    private Admin admin;
+
 }
