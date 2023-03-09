@@ -13,13 +13,14 @@ import javax.validation.constraints.Past;
 import org.hibernate.validator.constraints.Length;
 
 import acme.framework.components.accounts.Administrator;
+import acme.framework.data.AbstractEntity;
 import lombok.Getter;
 import lombok.Setter;
 
 @Entity
 @Getter
 @Setter
-public class Bulletin {
+public class Bulletin extends AbstractEntity {
 
 	@Past
 	private Date			instationMoment;
